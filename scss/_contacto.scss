@@ -1,0 +1,112 @@
+.contacto-principal{
+    padding-top: 0px;
+    width: 100%;
+    height: calc(130vh - 130px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#e5e7e9;
+    a{
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        color: #ffffff;
+        font-size: 25px;
+        margin-top: 50px;
+        width: 30%;
+        padding: 2px 5px;
+        box-shadow: 5px 5px 15px rgb(61, 61, 61);
+        background-color: #383737;
+        text-align: center;
+        &:hover{
+            background-color: #383737;
+            color: rgb(255, 255, 255);
+            transform: scale(1.1 , 1.1);
+            transition: .2s;
+            border: 2px solid #383737;
+        }
+    }
+    .contacto-h1{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        h1{
+            font-family: 'Oswald', sans-serif;
+        }
+    }
+    .contacto-contenedor{
+        width: 50%;
+        height: 400px;
+        background-color: white;
+        box-shadow: 5px 5px 15px gray;
+        &:hover{
+            transform: scale(1.02 , 1.02);
+            transition: .5s;
+        }
+        .contacto-izquierda{
+            grid-area: a-;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 10px;
+            h2{
+                font-size: 25px;
+                margin-top: 5px;
+                margin-bottom: 1px;
+                font-family: 'Prompt', sans-serif; 
+                color: #000000;
+                text-decoration-style: dotted;
+            }
+            .form-contacto{
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                input{
+                    text-align: center;
+                    width: 300px;
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+                button{
+                    margin-top: 30px;
+                    width: 150px;
+                    background-color: white;
+                    border: 1px black solid;
+                    &:hover{
+                        transform: scale(1.1 , 1.1);
+                        background-color: #383737;
+                        color: white;
+                        border: #000000 solid 1px;
+                        transition: .2s;
+                    }
+                }
+            }
+        }
+        .contacto-derecha{
+            background-color: #383737;
+            grid-area: b-;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            h2{
+                font-family: 'Prompt', sans-serif;
+                color: white;
+                margin-top: 5px;
+            }
+            h3{
+                color: white;
+                font-family: 'Prompt', sans-serif;
+                font-size: 20px;
+                margin-bottom: 0px;
+            }
+            p{
+                color: white;
+                iframe{
+                    margin-top: 5px;
+                    border: 1px solid white;
+                }
+            }
+        }
+    }
+}

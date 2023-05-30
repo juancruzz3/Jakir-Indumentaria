@@ -1,0 +1,81 @@
+/**FOOTER A**/
+
+footer{
+    width: 100%;
+    .footer{
+        border-top: solid 1px rgb(131, 131, 131);
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        .funo{
+            grid-area: unof;
+            width: 400px;
+            height: 150px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h6{
+                font-family: 'Lilita One', cursive;
+            }
+            a{
+                text-decoration: none;
+                color: #000000;
+                &:hover{
+                    transform: scale(1.1 , 1.1);
+                    transition: .1s;
+                }
+            }
+        }
+        .fdos{
+            grid-area: dosf;
+            width: 400px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            p{
+                font-family: 'Josefin Sans', sans-serif;
+                margin-bottom: 0;
+            }
+            img{
+                width: 75px;
+            }
+        }
+        .ftres{
+            grid-area: tresf;
+            width: 400px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            a{
+                text-decoration: none;
+                color: #000000;
+                &:hover{
+                    transform: scale(1.1 , 1.1);
+                    transition: .1s;
+                }
+            }
+            h6{
+                font-family: 'Lilita One', cursive;
+            }
+        }
+    }
+    .copy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        p{
+            color: #A6A6A6;
+            img{
+                width: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,338 @@
+/**index**/
+
+@media (max-width: 1217px){
+    main{
+        .cuerpo{
+            .outlets{
+                grid-template-columns: 2, 1fr;
+                grid-template-rows: 4, 1fr;
+                grid-template-areas: 
+                "uno dos"
+                "tres cuatro"
+                "cinco seis"
+                "siete ocho"
+                ;
+            }
+        }
+    }
+}
+
+@media (max-width: 895px){
+    main{
+        .cuerpo{
+            .new{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 654px){
+    main{
+        .cuerpo{
+            .outlets{
+                grid-template-columns: 1, 1fr;
+                grid-template-rows: 8, 1fr;
+                grid-template-areas: 
+                "uno"
+                "dos"
+                "tres"
+                "cuatro"
+                "cinco"
+                "seis"
+                "siete"
+                "ocho"
+                ;
+            }
+        }
+    }
+}
+
+/**productos**/
+
+@media (max-width: 1245px){
+    .productos-principal{
+        grid-template-columns: 3, 1fr;
+        grid-template-rows: 16, 1fr;
+        grid-template-areas: 
+        "-a -b -c"
+        "-d -e -f "
+        "-g -h -i"
+        "-j -k -l"
+        "-m -n -o"
+        "-p -q -r"
+        "-s -t -u"
+        "-v -w -x"
+        "-y -z -aa"
+        "-ab -ac -ad"
+        "-ae -af -ag"
+        "-ah -ai -aj"
+        "-ak -al -am"
+        "-an -ao -ap"
+        "-aq -ar -as"
+        "-at -au -av"
+        ;
+    }
+}
+
+@media (max-width: 930px){
+    .productos-principal{
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows: 24, 1fr;
+        grid-template-areas: 
+        "-a -b"
+        "-c -d"
+        "-e -f"
+        "-g -h"
+        "-i -j"
+        "-k -l"
+        "-m -n"
+        "-o -p"
+        "-q -r"
+        "-s -t"
+        "-u -v"
+        "-w -x"
+        "-y -z"
+        "-aa -ab"
+        "-ac -ad"
+        "-ae -af"
+        "-ag -ah"
+        "-ai -aj"
+        "-ak -al"
+        "-am -an"
+        "-ao -ap"
+        "-aq -ar"
+        "-as -at"
+        "-au -av"
+        ;
+    }
+}
+
+@media (max-width: 660px){
+    .productos-principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 48, 1fr;
+        grid-template-areas: 
+        "a"
+        "b"
+        "c"
+        "d"
+        "e"
+        "f"
+        "g"
+        "h"
+        "i"
+        "j"
+        "k"
+        "l"
+        "m"
+        "n"
+        "o"
+        "p"
+        "q"
+        "r"
+        "s"
+        "t"
+        "u"
+        "v"
+        "w"
+        "x"
+        "y"
+        "z"
+        "aa"
+        "ab"
+        "ac"
+        "ad"
+        "af"
+        "ag"
+        "ah"
+        "ai"
+        "aj"
+        "ak"
+        "al"
+        "am"
+        "an"
+        "ao"
+        "ap"
+        "aq"
+        "ar"
+        "as"
+        "at"
+        "au" 
+        "av"
+        ;
+    }
+}
+
+@media (max-width: 1245px){
+    .productos-secundario{
+        display: grid;
+        grid-template-columns: 3, 1fr;
+        grid-template-rows: 4, 1fr;
+        grid-template-areas: 
+        "-a -b -c "
+        "-d -e -f"
+        "-g -h -i"
+        "-j -k -l"
+        ;
+    }
+}
+
+@media (max-width: 930px){
+    .productos-secundario{
+        display: grid;
+        grid-template-columns: 2, 1fr;
+        grid-template-rows: 6, 1fr;
+        grid-template-areas: 
+        "-a -b"
+        "-c -d"
+        "-e -f"
+        "-g -h"
+        "-i -j"
+        "-k -l"
+        ;
+    }
+}
+
+@media (max-width: 660px){
+    .productos-secundario{
+        display: grid;
+        grid-template-columns: 1, 1fr;
+        grid-template-rows: 12, 1fr;
+        grid-template-areas: 
+        "-a"
+        "-b"
+        "-c"
+        "-d"
+        "-e"
+        "-f"
+        "-g"
+        "-h"
+        "-i"
+        "-j"
+        "-k"
+        "-l"
+        ;
+    }
+}
+/**contacto**/
+
+@media (max-width: 654px){
+    .contacto-principal{
+        .contacto-contenedor{
+            .contacto-izquierda{
+                .form-contacto{
+                    input{
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
+    .contacto-derecha{
+        .contacto-nosotros{
+            iframe{
+                width: 90%;
+            }
+        }
+    }
+}
+
+/**preguntas**/
+
+@media (max-width: 515px){
+    .preguntas-section{
+        .preguntas-h2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 920px){
+    .preguntas-section{
+        .preguntas-g{
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width: 518px){
+    .preguntas-section{
+        height: calc(140vh - 130px);
+    }
+}
+
+/**footer**/
+
+@media (max-width: 650px){
+    footer{
+        .footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 417px){
+    footer{
+        .footer{
+            .funo{
+                width: 200px;
+                border-bottom: #383737 1px solid;
+            }
+            .fdos{
+                width: 200px;
+                border-bottom: #383737 1px solid;
+                margin-top: 5px;
+                padding-bottom: 10px;
+            }
+            .ftres{
+                width: 200px;
+            }
+        }
+    }
+}
+
+/**header**/
+
+@media (max-width: 654px){
+    header{
+        .responsive{
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            align-items: center;
+            .img{
+                .logoimg{
+                    height: auto;
+                    margin-left: 5px;
+                }
+            }
+            .navheader{
+                width: 200px;
+                ul{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 325px){
+    header{
+        .envios{
+            font-size: 12px;
+        }
+    }
+}
