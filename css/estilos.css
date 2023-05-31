@@ -16,7 +16,7 @@ header {
   flex-direction: column;
   position: sticky;
   top: -25px;
-  z-index: 1;
+  z-index: 4;
   box-shadow: 0px 5px 30px #4e4e4e; }
   header .envios {
     width: 100%;

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>./index.html</loc>
+  </url>
+
+  <url>
+    <loc>./pages/productos.html</loc>
+  </url>
+
+  <url>
+    <loc>./pages/contacto.html</loc>
+  </url>
+
+    <url>
+    <loc>./pages/preguntas.html</loc>
+  </url>
+
+    <url>
+    <loc>./productos-buzos.html</loc>
+  </url>
+
+    <url>
+    <loc>./productos-pantalones.html</loc>
+  </url>
+
+  <url>
+    <loc>./productos-remeras.html</loc>
+  </url>
+
+  <url>
+    <loc>./productos-shorts.html</loc>
+  </url>
+
+  <url>
+    <loc>./productos-newin.html</loc>
+  </url>
+
+  <url>
+    <loc>./productos-sale.html</loc>
+  </url>
+
+  <url>
+    <loc>./preguntas-showroom.html</loc>
+  </url>
+
+    <url>
+    <loc>./preguntas-metodos.html</loc>
+  </url>
+
+    <url>
+    <loc>./comprar.html</loc>
+  </url>
+
+
+
+</urlset>
