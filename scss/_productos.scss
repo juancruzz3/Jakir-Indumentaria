@@ -30,6 +30,13 @@
     justify-content: space-around;
     background-color: #e5e7e9;
 
+    .tachado{
+        text-decoration: line-through;
+    }
+    .sale-text{ 
+        background-color: red;
+    }
+
     .productos-grid{
 
         .card{
@@ -84,6 +91,13 @@
     gap: 20px;
     justify-content: space-around;
     background-color: #e5e7e9;
+
+    .tachado{
+        text-decoration: line-through;
+    }
+    .sale-text{ 
+        background-color: red;
+    }
 
     .productos-grid{
         .card{

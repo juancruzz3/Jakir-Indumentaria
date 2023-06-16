@@ -284,6 +284,10 @@ footer {
   gap: 20px;
   justify-content: space-around;
   background-color: #e5e7e9; }
+  .productos-principal .tachado {
+    text-decoration: line-through; }
+  .productos-principal .sale-text {
+    background-color: red; }
   .productos-principal .productos-grid .card {
     margin: 20px 0; }
     .productos-principal .productos-grid .card:hover {
@@ -322,6 +326,10 @@ footer {
   gap: 20px;
   justify-content: space-around;
   background-color: #e5e7e9; }
+  .productos-secundario .tachado {
+    text-decoration: line-through; }
+  .productos-secundario .sale-text {
+    background-color: red; }
   .productos-secundario .productos-grid .card {
     margin: 20px 0; }
     .productos-secundario .productos-grid .card:hover {
